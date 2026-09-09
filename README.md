@@ -1,4 +1,4 @@
-# LAB-AP-05-2026
+# LAB-AP-5-2026
 
 # Repositori Tugas Algoritma dan Pemrograman 2026
 
@@ -14,7 +14,7 @@
 
    ```sh
 
-   git clone https://github.com/YOUR_USERNAME/LAB-AP-05-2026.git
+   git clone https://github.com/YOUR_USERNAME/LAB-AP-5-2026.git
 
    ```
 
@@ -22,7 +22,7 @@
 
    ```sh
 
-   cd LAB-AP-05-2026
+   cd LAB-AP-5-2026
    git branch NIM_ANDA
    git checkout NIM_ANDA
    git config user.name USERNAME_GITHUB
@@ -98,7 +98,7 @@
    #3. Scroll ke bagian bawah dan pilih menu Dveloper settings
    #4. Pilih Prsonal access tokens
    #5. Pilih Generate new tokes
-   #6. Tuliskan note untuk token anda (ex: Token for LAB-AP-05-2026)
+   #6. Tuliskan note untuk token anda (ex: Token for LAB-AP-5-2026)
    #7. Atur waktu expiration token anda (sesuai keinginan anda)
    #8. Pada select scope, ceklis box repo
    #9. Klik generate new token
