@@ -1,0 +1,13 @@
+cabai = int(input("masukkan persentase cabai: "))
+
+if cabai <= 10 and cabai >= 0:
+    print("level: aman")
+elif cabai <= 40 and cabai >= 11:
+    print("level: sedang")
+elif cabai <= 70 and cabai >= 41:
+    print("level: pedas")
+elif cabai < 0:
+    print("invalid")
+else:
+    print("level: ekstrem")
+
