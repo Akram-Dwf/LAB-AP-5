@@ -22,11 +22,12 @@ def cari_buku(inventaris, kata_kunci):
     print(f"Ditemukan {panjang} buku:")
     for hasil_nya in hasil:
         urutan += 1
-        print(f"{urutan} {hasil_nya["judul"]} {hasil_nya["penulis"]} | RP{hasil_nya["harga"]} | Stik: {hasil_nya["stok"]}")
+        print(f"{urutan}. {hasil_nya["judul"]} - {hasil_nya["penulis"]} | RP{hasil_nya["harga"]} | Stok: {hasil_nya["stok"]}")
 
 def update_stok(inventaris, judul, jumlah):
     simbol = jumlah[0]
     angka = jumlah[1:]
+    ditemukan = False
     for buku in inventaris:
         if buku["judul"] == judul:
             if simbol == "-":
@@ -34,13 +35,16 @@ def update_stok(inventaris, judul, jumlah):
                 if buku["stok"] < 0:
                     print("Tidak dapat membuat perubahan")
                     buku["stok"] += int(angka)
+                    ditemukan = True
                 else:
-                    print(f"Stok '{"stok"}' berkurang {angka}. Stok sekarang: {buku["stok"]}")
+                    print(f"Stok '{buku["judul"]}' berkurang {angka}. Stok sekarang: {buku["stok"]}")
+                    ditemukan = True
             elif simbol == "+":
+                ditemukan = True
                 buku["stok"] += int(angka)
-                print(f"Stok '{"stok"}' bertambah {angka}. Stok sekarang: {buku["stok"]}")
-        elif judul not in buku["judul"]:
-            print("Buku yang anda masukkan tidak ada")
+                print(f"Stok '{buku["judul"]}' bertambah {angka}. Stok sekarang: {buku["stok"]}")
+    if not ditemukan:
+            print(f"Tidak ada buku '{judul}' dalam inventaris")
 
 def ringkasan_inventaris(inventaris):
     total_buku = len(inventaris)
