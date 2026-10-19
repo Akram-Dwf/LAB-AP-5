@@ -1,0 +1,16 @@
+
+jarakPengirimanBarang = float(input("jarak: "))
+layanan_express = str(input("apakah anda ingin menggunakan layanan express (ya/tidak): ")).lower().strip()
+
+if jarakPengirimanBarang < 5:
+    tarif_dasar = 10000
+elif jarakPengirimanBarang <= 20 and jarakPengirimanBarang >= 5:
+    tarif_dasar = 20000
+else:
+    tarif_dasar = 35000
+
+layanan_express = 15000 if layanan_express == "ya" else 0
+
+total_tarif = layanan_express + tarif_dasar
+
+print(total_tarif)
