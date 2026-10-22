@@ -1,0 +1,10 @@
+===== INVOICE =====
+ID Transaksi : AG2610221610533
+Kasir        : afdal ginaya
+Waktu        : 2026-10-22 16:11:46
+-------------------
+sabun | Rp. 5000 x 3 = Rp. 15000
+ayam | Rp. 50000 x 2 = Rp. 100000
+kursi  | Rp. 30000 x 3 = Rp. 90000
+-------------------
+TOTAL : Rp. 205000
