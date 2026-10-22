@@ -1,0 +1,15 @@
+========== INVOICE ==========
+Kasir: DRI
+ID Transaksi: DRI2610221520444
+Waktu: 2026-10-22 15:20:04.190543
+-----------------------------
+Produk: Roti
+Harga: Rp23000
+Jumlah: 3
+Subtotal: Rp69000
+-----------------------------
+Produk: Gula
+Harga: Rp10000
+Jumlah: 1
+Subtotal: Rp10000
+-----------------------------
