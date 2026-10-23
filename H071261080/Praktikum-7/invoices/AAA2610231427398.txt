@@ -1,0 +1,17 @@
+========== INVOICE ==========
+Kasir: Ahmad Adil Azhari
+ID Transaksi: AAA2610231427398
+Waktu: 2026-10-23 14:27:14
+-----------------------------
+Produk: ROTI
+Harga: Rp6000
+Jumlah: 5
+Subtotal: Rp30000
+-----------------------------
+Produk: 0
+Harga: Rp7000
+Jumlah: 2
+Subtotal: Rp14000
+-----------------------------
+Total Belanja: Rp44000
+=============================

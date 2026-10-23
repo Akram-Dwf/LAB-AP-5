@@ -1,0 +1,12 @@
+========== INVOICE ==========
+Kasir: Adil Ashar im
+ID Transaksi: AAI2610231606256
+Waktu: 2026-10-23 16:06:50
+-----------------------------
+Produk: roti
+Harga: Rp3000
+Jumlah: 4
+Subtotal: Rp12000
+-----------------------------
+Total Belanja: Rp12000
+=============================
