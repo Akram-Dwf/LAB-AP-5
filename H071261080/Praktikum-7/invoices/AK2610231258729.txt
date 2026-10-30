@@ -1,0 +1,12 @@
+========== INVOICE ==========
+Kasir: aDIL kontak
+ID Transaksi: AK2610231258729
+Waktu: 2026-10-23 12:58:55
+-----------------------------
+Produk: Mayhem
+Harga: Rp2000
+Jumlah: 4
+Subtotal: Rp8000
+-----------------------------
+Total Belanja: Rp8000
+=============================
